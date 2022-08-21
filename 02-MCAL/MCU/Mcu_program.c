@@ -239,7 +239,7 @@ Mcu_PllStatusType Mcu_GetPllStatus( void )
 #define Mcu_Clock_1        1
 #define Mcu_Clock_2        2
 
-
+/***************** MCU_Lcfg.c*************/
 uint8 Mcu_ActivatedClockGates[MCU_ACTIVATED_CLOCK_GATES_SIZE]=
 {
 	MCU_CLOCK_GATE_GPIOA,
