@@ -34,9 +34,11 @@ void LED_ON()
 	Dio_WriteChannel( DIO_CHANNEL_A5 , STD_HIGH );
 	
 }
-void LED_OFF(DIO_CHANNEL_A5 , STD_LOW); 
+void LED_OFF(); 
 {
 	
+	
+	Dio_WriteChannel( DIO_CHANNEL_A5 , STD_LOW );
 	
 	
 } 
