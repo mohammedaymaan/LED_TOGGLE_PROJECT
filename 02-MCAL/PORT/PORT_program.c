@@ -79,3 +79,6 @@ void Port_Init ( const Port_ConfigType* ConfigPtr )
 	
 	
 }
+
+
+/*FOR PORT_Lcfg.c*/
