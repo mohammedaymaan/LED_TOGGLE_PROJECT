@@ -14,7 +14,7 @@ void LED_init(void (*Set_Call_Back_Ptr)(void))
     /* NVIC_Init Call Config Pointer */   
 	Nvic_Init(&Nvic_CfgType)   ;
 	/* MCU_Init Call Config Pointer */ 
-	Mcu_Init (&Mcu_ConfigType) ;
+	Mcu_Init (&Mcu_Clock_0) ;
 	
     /*PORT Init Call Config Pointer */
 	Port_Init(&Port_Config)    ; 

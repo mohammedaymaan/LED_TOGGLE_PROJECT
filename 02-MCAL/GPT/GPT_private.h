@@ -11,7 +11,7 @@
  *********************************************************************************************************************/
 #define NUM_OF_GPT                                                 12
 
-#define PREDEF_TIMER		                              GPT_32_64_BIT_WIDE_TIMER0
+//#define PREDEF_TIMER		                              GPT_16_64_BIT_WIDE_TIMER0
 
 #define TAEN                                                        0
 #define TBEN                                                        8

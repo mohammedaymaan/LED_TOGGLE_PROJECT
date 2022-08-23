@@ -237,7 +237,7 @@ Mcu_PllStatusType Mcu_GetPllStatus( void )
 
 #define Mcu_Clock_0        0
 #define Mcu_Clock_1        1
-#define Mcu_Clock_2        2
+//#define Mcu_Clock_2        2
 
 /***************** MCU_Lcfg.c*************/
 uint8 Mcu_ActivatedClockGates[MCU_ACTIVATED_CLOCK_GATES_SIZE]=
@@ -253,7 +253,7 @@ uint8 Mcu_ActivatedClockGates[MCU_ACTIVATED_CLOCK_GATES_SIZE]=
 const Mcu_ConfigType McuConfig[MCU_CLOCK_SETTINGS_SIZE]=
 {
 	/*ClockSettingID*/ /* ClockSource                        PllUse     Freq_KHz  */
-	/* 0            */ {  MCU_CLOCK_SOURCE_MOSC             ,ENABLE     ,25000},
+	/* 0            */ {  MCU_CLOCK_SOURCE_MOSC             ,DISABLE     ,25000},
 	/* 1            */ {  MCU_CLOCK_SOURCE_PIOSC            ,DISABLE    ,16000},
 };
 
